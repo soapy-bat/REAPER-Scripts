@@ -57,9 +57,9 @@ function CreateSyncMarker()
   end
 end
 
----------------------------
--- execution starts here --
----------------------------
+--------------------------------
+-- code execution starts here --
+--------------------------------
 
 r.Undo_BeginBlock()
 CreateSyncMarker()
