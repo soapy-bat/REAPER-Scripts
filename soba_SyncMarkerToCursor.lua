@@ -52,9 +52,9 @@ function AlignSyncMarkersWithEditCursor()
     end
 end
 
----------------------------
--- execution starts here --
----------------------------
+--------------------------------
+-- code execution starts here --
+--------------------------------
 r.Undo_BeginBlock()
 AlignSyncMarkersWithEditCursor()
 r.Undo_EndBlock("Align Sync Markers With Edit Cursor", -1)
